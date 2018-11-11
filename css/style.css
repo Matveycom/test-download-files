@@ -1,0 +1,92 @@
+.upload {
+  margin-left: 35%;
+  margin-top: 50px;
+}
+
+.info-table {
+  width: 100%;
+}
+.info-table th {
+  border: 1px solid #c8d300
+}
+
+.number {
+  width: 3%;
+}
+
+.dir {
+  width: 7%;
+}
+
+.full {
+  width: 35%;
+}
+
+.extencion {
+  width: 5%;
+}
+
+.name {
+  width: 30%;
+}
+
+.size {
+  width: 10%;
+}
+
+.delete-form {
+  margin: 10px 0;
+}
+
+th.delete {
+  /*width: 5%;*/
+  border: unset;
+}
+
+th.download {
+  border: unset;
+}
+
+th.download p {
+  display: inline;
+}
+
+th.download p a {
+  font-size: 14px;
+  border: none;
+  background: 0 0;
+  cursor: pointer;
+  margin-right: 5px;
+  overflow: visible;
+  width: auto;
+  background-color: #007303;
+  background-image: linear-gradient(to bottom,#187700 5%,#57bd09 100%);
+  border-radius: 6px;
+  font-weight: 700;
+  padding: 5px 8px;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.load-file {
+  font-size: 14px;
+  border: none;
+  background: 0 0;
+  cursor: pointer;
+  margin-right: 5px;
+  overflow: visible;
+  width: auto;
+  background-color: #007303;
+  background-image: linear-gradient(to bottom,#187700 5%,#57bd09 100%);
+  border-radius: 6px;
+  font-weight: 700;
+  padding: 5px 8px;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.table {
+  margin-top: 50px;
+}
