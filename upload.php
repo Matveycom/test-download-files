@@ -5,11 +5,9 @@ if (isset($_FILES['uploadfile']['name'])) {
 }
 
 function upload_files() {
-// Каталог, в который мы будем принимать файл:
   $uploaddir = './files/';
   $uploadfile = $uploaddir . basename($_FILES['uploadfile']['name']);
 
-// Копируем файл из каталога для временного хранения файлов:
   if (!empty($_FILES['uploadfile']['name'])) {
     if (file_exists($uploadfile)) {
       echo "<h3>File is already uploaded to server</h3>";
